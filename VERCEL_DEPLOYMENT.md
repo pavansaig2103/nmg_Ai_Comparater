@@ -33,7 +33,7 @@ Do not set `VITE_API_URL` for the normal single-project Vercel deployment. The f
 After setting `DATABASE_URL`, create the tables and seed starter data:
 
 ```bash
-npm install --prefix backend
+npm install
 npm run db:push
 npm run db:seed
 ```
